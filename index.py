@@ -6,7 +6,7 @@ import time
 import os
 
 # Telegram bot configuration
-TELEGRAM_BOT_TOKEN = "7586502137:AAETluyDL-emEXAgi0hq0Gf3wRLkIbf91Wk  # Replace with your bot token
+TELEGRAM_BOT_TOKEN = "7586502137:AAETluyDL-emEXAgi0hq0Gf3wRLkIbf91Wk" # Replace with your bot token
 TELEGRAM_CHAT_ID = -1001837030838      # Replace with your chat ID
 
 # Get URL and interval from the user
