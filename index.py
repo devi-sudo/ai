@@ -1,6 +1,4 @@
 
-# URL of the website to monitor
-# Replace with your website URL
 import requests
 import time
 import os
@@ -10,8 +8,8 @@ TELEGRAM_BOT_TOKEN = "7586502137:AAETluyDL-emEXAgi0hq0Gf3wRLkIbf91Wk" # Replace 
 TELEGRAM_CHAT_ID = -1001837030838      # Replace with your chat ID
 
 # Get URL and interval from the user
-WEBSITE_URL = input("Enter the website URL to monitor (with https://): ").strip()
-CHECK_INTERVAL = int(input("Enter the check interval (in seconds): "))
+WEBSITE_URL = "https://fine-sunny-weeder.glitch.me/"
+CHECK_INTERVAL = 180
 def send_telegram_alert(message):
     """Send an alert message to Telegram."""
     try:
